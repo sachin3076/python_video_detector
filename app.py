@@ -1,4 +1,6 @@
 import os
+os.system("pip uninstall -y opencv-python opencv-python-headless")
+os.system("pip install opencv-python-headless==4.9.0.80")
 import cv2
 import streamlit as st
 from ultralytics import YOLO
